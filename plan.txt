@@ -1,0 +1,19 @@
+1. Nav bar
+    - 3 links
+    - logo, just in top left
+    - portfolio/resume: my cs stuff
+    - extra curriculars: my hobbies I have picked up
+    - connect with me
+2. Landing page
+    - make the main page, have the waves, fade in the dictionary definition as well as my headshot
+    - fade in the navbar
+3. resume
+    - add projects and such
+    - make resume file downloadable
+4. Extra curriculars
+    - make a 3 x 3 grid, hovering over it can provide for more details. Make it a carousel. If more examples are wanted,
+    outsource to another source (aka, for nails, link to insta; astrophotography link to album; dance link to youtube playlist)
+5. connect
+    - add icons
+    - make the icons
+    - add a little animated picture of me

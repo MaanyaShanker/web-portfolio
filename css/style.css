@@ -1,0 +1,77 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Playfair Display";
+    background-color: #FFE0CB;
+}
+
+.navbar{
+    animation: fade-in 2000ms forwards;
+    padding: 10px;
+    background-color: rgba(128, 89, 64, 0.75);
+    opacity: .5;
+}
+
+.nav-link{
+    color: #FFE0CB !important;
+}
+
+.navbar-brand{
+    color: #FFE0CB !important;
+}
+
+.section-description{
+    text-align: center;
+}
+
+#landing{
+    background-color: #805940;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#dictionary-definition{
+    padding: 200px 80px 80px 80px;
+    color: #FFE0CB;
+    display: table-cell; 
+    vertical-align: middle;
+    text-shadow: 2px 2px #351c1c;
+    animation: fade-in 2000ms forwards;
+}
+
+#resume{
+    padding-left: 80px;
+}
+
+.spacer {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: fade-in 2000ms forwards;
+  }
+
+  .layer {
+    background-image: url('./images/layered_wave.svg');
+  }
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slide-up {
+    0% {
+      transform: translateY(50%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
