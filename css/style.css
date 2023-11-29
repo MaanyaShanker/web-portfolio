@@ -5,12 +5,14 @@ html{
 body{
     font-family: "Playfair Display";
     background-color: #FFE0CB;
+    /* padding: 0px 80px; */
 }
 
 .navbar{
     animation: fade-in 2000ms forwards;
     padding: 10px;
-    background-color: rgba(128, 89, 64, 0.75);
+    width: 100%;
+    background-color: rgba(128, 89, 64, 0.90);
     opacity: .5;
 }
 
@@ -22,56 +24,69 @@ body{
     color: #FFE0CB !important;
 }
 
-.section-description{
-    text-align: center;
-}
-
 #landing{
     background-color: #805940;
-    height: 100%;
+    width: 100%;
     vertical-align: middle;
 }
 
 #dictionary-definition{
-    padding: 200px 80px 80px 80px;
+    padding: 100px 80px 80px 100px;
     color: #FFE0CB;
-    display: table-cell; 
-    vertical-align: middle;
     text-shadow: 2px 2px #351c1c;
     animation: fade-in 2000ms forwards;
 }
 
-#resume{
-    padding-left: 80px;
+.def{
+  position: absolute;
+  transform: translate(0, -50%);
+  top: 50%;
 }
 
 .spacer {
-    aspect-ratio: 960/300;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    animation: fade-in 2000ms forwards;
-  }
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  animation: fade-in 2000ms forwards;
+}
 
-  .layer {
-    background-image: url('./images/layered_wave.svg');
-  }
+#headshot{
+  box-shadow: 4px 4px #351c1c;
+}
 
-  @keyframes fade-in {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
+.section-description{
+  text-align: center;
+}
 
-  @keyframes slide-up {
-    0% {
-      transform: translateY(50%);
-    }
-    100% {
-      transform: translateY(0%);
-    }
+.tiles {
+  background-color: #805940;
+  color: #FFE0CB;
+  transition: box-shadow 0.3s;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.tiles:hover{
+  box-shadow: 0 0 11px #351c1c;
+  cursor: pointer;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
   }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
